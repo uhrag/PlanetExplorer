@@ -1,5 +1,8 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+
+// ID:
+// Finish time:
 public class PlanetExplorer {
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.

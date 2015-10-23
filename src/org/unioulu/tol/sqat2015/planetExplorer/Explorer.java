@@ -3,18 +3,18 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class Explorer {
 	private int posX;
 	private int posY;
-	private String direction = "";
+	private char direction = 'N';
 	
 	public void Explorer() {
 		posX = 0;
 		posY = 0;
-		direction = "North";
+		direction = 'N';
 	}
 	
 	public void Landing(){
 		posX = 0;
 		posY = 0;
-		direction = "North";
+		direction = 'N';
 	}
 	
 	public int getPosX(){
@@ -27,32 +27,30 @@ public class Explorer {
 	
 	public char getDirection(){
 		
-		//System.out.println(direction.charAt(0));
-		
-		return direction.charAt(0);
+		return direction;
 	}
 	
 	public void turnLeft() {
 		//if N->W->S->E-N
-	if (direction == "North")
-		direction = "West";
-	else if (direction == "West")
-		direction = "South";
-	else if (direction == "South")
-		direction = "East";
-	else if (direction == "East")
-		direction = "North";
+	if (direction == 'N')
+		direction = 'W';
+	else if (direction == 'W')
+		direction = 'S';
+	else if (direction == 'S')
+		direction = 'E';
+	else if (direction == 'E')
+		direction = 'N';
 	}
 	
 	public void turnRight() {
-		if (direction == "North")
-			direction = "East";
-		else if (direction == "East")
-			direction = "South";
-		else if (direction == "South")
-			direction = "West";
-		else if (direction == "West")
-			direction = "North";
+		if (direction == 'N')
+			direction = 'E';
+		else if (direction == 'E')
+			direction = 'S';
+		else if (direction == 'S')
+			direction = 'W';
+		else if (direction == 'W')
+			direction = 'N';
 	}
 	
 }

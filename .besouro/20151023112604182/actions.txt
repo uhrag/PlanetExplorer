@@ -1,0 +1,64 @@
+FileOpenedAction 1445588764478 TestPlanetExplorer.java 228 1 1 0
+RefactoringAction 1445589150252 Planet.java ADD Planet.java CLASS
+FileOpenedAction 1445589150416 Planet.java 86 0 0 0
+RefactoringAction 1445589169060 Explorer.java ADD Explorer.java CLASS
+FileOpenedAction 1445589169213 Explorer.java 88 0 0 0
+RefactoringAction 1445589228110 Planet.java ADD size x FIELD
+RefactoringAction 1445589236118 Planet.java REMOVE x FIELD
+RefactoringAction 1445589239633 Planet.java ADD int x FIELD
+RefactoringAction 1445589264687 Planet.java REMOVE x FIELD
+FileOpenedAction 1445589289651 PortfolioTest.java 1015 2 13 1
+RefactoringAction 1445589301653 TestPlanetExplorer.java ADD import org.junit.Before IMPORT
+RefactoringAction 1445589318752 TestPlanetExplorer.java ADD Planet planet FIELD
+RefactoringAction 1445589325268 TestPlanetExplorer.java ADD Explorer explorer FIELD
+RefactoringAction 1445589449868 Planet.java ADD int x FIELD
+RefactoringAction 1445589449869 Planet.java ADD int y FIELD
+RefactoringAction 1445589577088 Explorer.java REMOVE Explorer.java CLASS
+RefactoringAction 1445589578190 Planet.java REMOVE Planet.java CLASS
+RefactoringAction 1445589592587 Planet.java ADD Planet.java CLASS
+FileOpenedAction 1445589592746 Planet.java 80 0 0 0
+RefactoringAction 1445589605216 Explorer.java ADD Explorer.java CLASS
+FileOpenedAction 1445589605372 Explorer.java 82 0 0 0
+RefactoringAction 1445589617608 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.Planet IMPORT
+RefactoringAction 1445589619833 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.Explorer IMPORT
+RefactoringAction 1445589679223 TestPlanetExplorer.java RENAME test()=>void testPlanetSize() METHOD
+RefactoringAction 1445589704778 Planet.java ADD int x FIELD
+RefactoringAction 1445589706785 Planet.java ADD int y FIELD
+RefactoringAction 1445589844308 Planet.java ADD int getX() METHOD
+RefactoringAction 1445589844309 Planet.java ADD void setX(int) METHOD
+RefactoringAction 1445589844309 Planet.java ADD int getY() METHOD
+RefactoringAction 1445589844310 Planet.java ADD void setY(int) METHOD
+RefactoringAction 1445589861327 Planet.java REMOVE y FIELD
+RefactoringAction 1445589863342 Planet.java ADD int y FIELD
+RefactoringAction 1445590040287 Planet.java ADD string size FIELD
+RefactoringAction 1445590052826 Planet.java REMOVE size FIELD
+RefactoringAction 1445590055338 Planet.java ADD int FIELD
+RefactoringAction 1445590057853 Planet.java RENAME size=>int FIELD
+RefactoringAction 1445590059866 Planet.java REMOVE sizex FIELD
+RefactoringAction 1445590065903 Planet.java ADD int getX()/2 METHOD
+RefactoringAction 1445590069928 Planet.java REMOVE getX()/2 METHOD
+RefactoringAction 1445590074952 Planet.java REMOVE x FIELD
+RefactoringAction 1445590257778 Planet.java ADD int width FIELD
+RefactoringAction 1445590262290 Planet.java ADD int height FIELD
+RefactoringAction 1445590292388 Planet.java ADD int x FIELD
+RefactoringAction 1445590298054 Planet.java ADD int y/2 FIELD
+RefactoringAction 1445590304569 Planet.java RENAME y/2=>int y1 FIELD
+RefactoringAction 1445590309083 Planet.java RENAME y1=>int y/2 FIELD
+RefactoringAction 1445590325097 Planet.java REMOVE y/2 FIELD
+RefactoringAction 1445590685655 Planet.java REMOVE height FIELD
+RefactoringAction 1445590685656 Planet.java REMOVE width FIELD
+RefactoringAction 1445590721867 Planet.java RENAME <initializer /1>=>Planet(int, int) METHOD
+RefactoringAction 1445590842463 Planet.java RENAME x=>int width FIELD
+RefactoringAction 1445590844977 Planet.java RENAME y=>int height FIELD
+RefactoringAction 1445590849504 Planet.java ADD int size FIELD
+RefactoringAction 1445590971740 Planet.java REMOVE setY(int) METHOD
+RefactoringAction 1445590973752 Planet.java REMOVE setX(int) METHOD
+RefactoringAction 1445591004288 Planet.java RENAME getX()=>int get() METHOD
+RefactoringAction 1445591012800 Planet.java RENAME get()=>int getW() METHOD
+RefactoringAction 1445591013812 Planet.java RENAME getW()=>int get() METHOD
+RefactoringAction 1445591016824 Planet.java RENAME get()=>int getWidth() METHOD
+RefactoringAction 1445591025338 Planet.java RENAME getY()=>int getHeight() METHOD
+RefactoringAction 1445591070883 Planet.java ADD boolean size/2 FIELD
+RefactoringAction 1445591074395 Planet.java RENAME size/2=>boolean size() METHOD
+RefactoringAction 1445591119991 Planet.java RENAME size()=>boolean size(int, int) METHOD
+EditAction 1445591337247 TestPlanetExplorer.java 551 2 3 2

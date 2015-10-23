@@ -280,3 +280,6 @@ RefactoringAction 1445595488927 PlanetExplorer.java REMOVE planet FIELD
 EditAction 1445595514981 TestPlanetExplorer.java 1632 7 14 8
 EditAction 1445595515102 PlanetExplorer.java 1766 3 3 0
 EditAction 1445595515186 Explorer.java 951 7 11 0
+UnitTestCaseAction 1445595515530 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595515530 TestPlanetExplorer FAIL
+EditAction 1445595601604 PlanetExplorer.java 1800 3 4 0

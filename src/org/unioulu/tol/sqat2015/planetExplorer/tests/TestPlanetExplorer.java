@@ -32,5 +32,10 @@ public class TestPlanetExplorer {
 		assertEquals(0,explorer.getPosX());
 	}
 	
+	@Test
+	public void testExplorerDirectionAtStart() {
+		assertEquals("N",explorer.getDirection());
+	}
+	
 	
 }

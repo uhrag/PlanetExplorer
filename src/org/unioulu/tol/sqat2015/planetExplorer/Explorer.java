@@ -26,6 +26,9 @@ public class Explorer {
 	}
 	
 	public char getDirection(){
+		
+		System.out.println(direction.charAt(0));
+		
 		return direction.charAt(0);
 	}
 }

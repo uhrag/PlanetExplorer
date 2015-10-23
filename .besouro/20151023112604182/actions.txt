@@ -171,3 +171,10 @@ RefactoringAction 1445592745484 Explorer.java RENAME Explorer(int, int, String)=
 UnitTestCaseAction 1445592748782 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445592748782 TestPlanetExplorer FAIL
 EditAction 1445592795996 TestPlanetExplorer.java 832 4 7 5
+CompilationAction 1445592796283 TestPlanetExplorer.java
+UnitTestCaseAction 1445592798007 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592798007 TestPlanetExplorer FAIL
+CompilationAction 1445592805862 TestPlanetExplorer.java
+UnitTestCaseAction 1445592806085 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592806086 TestPlanetExplorer FAIL
+EditAction 1445592862476 Explorer.java 533 5 10 0

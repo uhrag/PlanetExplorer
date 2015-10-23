@@ -36,12 +36,13 @@ public class TestPlanetExplorer {
 		assertEquals('N',explorer.getDirection());
 	}
 	
-/*	@Test
+@Test
 	
 	public void testExplorerTurningLeft() {
-		
+		explorer.turnLeft();
+		assertEquals('E',explorer.getDirection());
 	}
-	*/
+
 	
 /*	@Test
 	

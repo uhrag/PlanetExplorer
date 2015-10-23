@@ -3,7 +3,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class Explorer {
 	private int posX;
 	private int posY;
-	private char direction;
+	private char direction = 'N';
 	
 	public void Explorer() {
 		posX = 0;

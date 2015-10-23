@@ -228,3 +228,9 @@ UnitTestSessionAction 1445593970542 TestPlanetExplorer FAIL
 RefactoringAction 1445594073644 TestPlanetExplorer.java ADD Object getDirection() METHOD
 RefactoringAction 1445594077018 TestPlanetExplorer.java REMOVE getDirection() METHOD
 EditAction 1445594114036 TestPlanetExplorer.java 973 4 7 5
+UnitTestCaseAction 1445594114332 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445594114332 TestPlanetExplorer FAIL
+RefactoringAction 1445594153864 TestPlanetExplorer.java ADD void testExplorerTurningLeft() METHOD
+RefactoringAction 1445594385605 PlanetExplorer.java ADD void Explorer() METHOD
+RefactoringAction 1445594400752 PlanetExplorer.java REMOVE Explorer() METHOD
+EditAction 1445594550371 TestPlanetExplorer.java 1033 5 9 6

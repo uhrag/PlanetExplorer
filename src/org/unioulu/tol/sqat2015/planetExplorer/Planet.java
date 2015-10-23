@@ -5,7 +5,8 @@ public class Planet  {
 	private int width;
 	private int height;
 	private boolean[][] size;
-	
+	private String obstacle;
+			
 	public Planet( int x, int y) {
 		width = x;
 		height = y;
@@ -21,6 +22,10 @@ public class Planet  {
 	
 	public boolean size(int x, int y) {
 		return size[x][y];
+	}
+	
+	public String obstacle(int x, int y){
+		return "(" + Integer.toString(x) + ")" + "(" + Integer.toString(y) +")";
 	}
 
 }

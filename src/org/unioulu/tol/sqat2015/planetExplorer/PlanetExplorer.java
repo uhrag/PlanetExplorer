@@ -44,7 +44,8 @@ public class PlanetExplorer {
 				case 'b':
 					//explorer.moveBackward();
 				default:
-					//explorer.Landed()
+					//if empty or something else
+					explorer.Landing();
 			}
 		}
 		

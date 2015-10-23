@@ -26,6 +26,7 @@ public class TestPlanetExplorer {
 		assertEquals((100),planet.getWidth());
 	}
 	
+	@Test
 	public void testExplorerHasLandedAtStart() {
 		assertEquals(0,explorer.getPosY());
 		assertEquals(0,explorer.getPosX());

@@ -235,3 +235,15 @@ RefactoringAction 1445594385605 PlanetExplorer.java ADD void Explorer() METHOD
 RefactoringAction 1445594400752 PlanetExplorer.java REMOVE Explorer() METHOD
 EditAction 1445594550371 TestPlanetExplorer.java 1033 5 9 6
 EditAction 1445594550501 PlanetExplorer.java 1536 2 0 0
+CompilationAction 1445594550660 PlanetExplorer.java
+CompilationAction 1445594550661 PlanetExplorer.java
+CompilationAction 1445594550661 PlanetExplorer.java
+CompilationAction 1445594550661 PlanetExplorer.java
+CompilationAction 1445594578745 PlanetExplorer.java
+CompilationAction 1445594578746 PlanetExplorer.java
+CompilationAction 1445594578746 PlanetExplorer.java
+CompilationAction 1445594578763 PlanetExplorer.java
+CompilationAction 1445594578763 PlanetExplorer.java
+UnitTestCaseAction 1445594579980 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445594579980 TestPlanetExplorer FAIL
+EditAction 1445594606096 TestPlanetExplorer.java 1033 5 9 6

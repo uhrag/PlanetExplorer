@@ -40,7 +40,7 @@ public class TestPlanetExplorer {
 	
 	public void testExplorerTurningLeft() {
 		explorer.turnLeft();
-		assertEquals('E',explorer.getDirection());
+		assertEquals('W',explorer.getDirection());
 	}
 
 	

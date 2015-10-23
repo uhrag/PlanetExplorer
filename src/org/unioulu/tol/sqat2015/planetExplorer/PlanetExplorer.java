@@ -31,11 +31,11 @@ public class PlanetExplorer {
 			
 			switch (c) {
 				case 'r':
-					explorer.turnRight();
+					//turnRight();
 					break;
 				case 'l':
-					explorer.turnLeft();
+					//turnLeft();
 					break;
 			}
-		return 0;
+		//return 0;
 }

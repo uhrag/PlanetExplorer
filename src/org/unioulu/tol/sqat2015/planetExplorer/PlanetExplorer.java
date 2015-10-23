@@ -4,6 +4,9 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // ID:
 // Finish time:
 public class PlanetExplorer {
+	
+	private Explorer explorer;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -29,15 +32,25 @@ public class PlanetExplorer {
 			
 			switch (c) {
 				case 'r':
-					//turnRight();
+					explorer.turnRight();
 					break;
 				case 'l':
-					//turnLeft();
+					//explorer.turnLeft();
 					break;
+				case 'f':
+					//explorer.moveForward();
+				case 'b':
+					//explorer.moveBackward();
+				default:
+					//explorer.Landed()
 			}
 		}
 		
 		return null;
-
+	}
+	
+	public Explorer getExplorer(){
+		return explorer;
+		
 	}
 }

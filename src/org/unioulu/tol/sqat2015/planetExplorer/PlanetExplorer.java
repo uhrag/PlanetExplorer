@@ -26,5 +26,16 @@ public class PlanetExplorer {
 		 */
 		
 		return null;
-	}
+		
+		for (char c : command.toCharArray()) {
+			
+			switch (c) {
+				case 'r':
+					explorer.turnRight();
+					break;
+				case 'l':
+					explorer.turnLeft();
+					break;
+			}
+		return 0;
 }

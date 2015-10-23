@@ -302,3 +302,11 @@ RefactoringAction 1445595974977 TestPlanetExplorer.java RENAME test=>void testHa
 RefactoringAction 1445595976995 TestPlanetExplorer.java RENAME testHasObstacle=>void testHasObstacle() METHOD
 EditAction 1445595994120 TestPlanetExplorer.java 1677 8 14 8
 EditAction 1445595994234 Planet.java 570 5 7 0
+CompilationAction 1445595994379 TestPlanetExplorer.java
+CompilationAction 1445595994379 TestPlanetExplorer.java
+UnitTestCaseAction 1445595995959 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595995960 TestPlanetExplorer OK
+RefactoringAction 1445596074457 TestPlanetExplorer.java REMOVE testHasObstacle() METHOD
+UnitTestCaseAction 1445596081599 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445596081599 TestPlanetExplorer OK
+EditAction 1445596098061 TestPlanetExplorer.java 1737 7 14 8

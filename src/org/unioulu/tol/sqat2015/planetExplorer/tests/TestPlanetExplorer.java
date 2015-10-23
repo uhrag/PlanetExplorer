@@ -53,7 +53,7 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void testExplorerTurningCircle() {
-		planetexplorer.executeCommand("rr");
+		planetexplorer.executeCommand("rrr");
 		//explorer.turnRight();
 		//explorer.turnRight();
 		//explorer.turnRight();
@@ -61,9 +61,11 @@ public class TestPlanetExplorer {
 		assertEquals('N',explorer.getDirection());
 }
 
+/*	@Test
 	public void testHasObstacle(){
-		planet
+		assertEquals("(100,100)",explorer.getDirection());
 	}
+	*/
 	
 /*	@Test
 	

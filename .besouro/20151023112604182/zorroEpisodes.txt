@@ -10,3 +10,5 @@
 1445594671934 test-addition 1 29 true
 1445594797580 refactoring 1A 125 true
 1445595601901 refactoring 3 804 true
+1445595995960 refactoring 3 394 true
+1445596081599 refactoring 1B 85 true

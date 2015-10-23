@@ -6,17 +6,20 @@ import org.junit.Before;
 import org.junit.Test;
 import org.unioulu.tol.sqat2015.planetExplorer.Explorer;
 import org.unioulu.tol.sqat2015.planetExplorer.Planet;
+import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
 
 	Planet planet;
 	Explorer explorer;
+	PlanetExplorer planetexplorer;
 	
 	
 	@Before
 	public void setup(){
 	planet = new Planet(100,100);
 	explorer = new Explorer();
+	planetexplorer = new PlanetExplorer(0, 0, null);
 	}
 	
 	@Test
@@ -50,10 +53,11 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void testExplorerTurningCircle() {
-		explorer.turnRight();
-		explorer.turnRight();
-		explorer.turnRight();
-		explorer.turnRight();
+		planetexplorer.executeCommand("rr");
+		//explorer.turnRight();
+		//explorer.turnRight();
+		//explorer.turnRight();
+		//explorer.turnRight();
 		assertEquals('N',explorer.getDirection());
 }
 
@@ -61,7 +65,14 @@ public class TestPlanetExplorer {
 	
 /*	@Test
 	
-	public void testExplorerTurningRight() {
+	public void testExplorerMovesForward() {
+		
+	}
+	*/
+	
+/*	@Test
+	
+	public void testExplorerMovesBackward() {
 		
 	}
 	*/

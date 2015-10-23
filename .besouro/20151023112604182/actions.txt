@@ -269,3 +269,12 @@ EditAction 1445594782362 TestPlanetExplorer.java 1313 7 14 8
 UnitTestCaseAction 1445594782671 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445594782672 TestPlanetExplorer FAIL
 EditAction 1445594796291 TestPlanetExplorer.java 1363 7 16 8
+UnitTestCaseAction 1445594797580 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445594797580 TestPlanetExplorer OK
+RefactoringAction 1445595137429 TestPlanetExplorer.java ADD PlanetExplorer planetexplorer FIELD
+RefactoringAction 1445595143883 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+RefactoringAction 1445595417293 PlanetExplorer.java ADD Explorer getExplorer() METHOD
+RefactoringAction 1445595470379 PlanetExplorer.java ADD Explorer explorer FIELD
+RefactoringAction 1445595476403 PlanetExplorer.java ADD Planet planet FIELD
+RefactoringAction 1445595488927 PlanetExplorer.java REMOVE planet FIELD
+EditAction 1445595514981 TestPlanetExplorer.java 1632 7 14 8

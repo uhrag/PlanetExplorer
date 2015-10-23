@@ -17,7 +17,6 @@ public class TestPlanetExplorer {
 	public void setup(){
 	planet = new Planet(100,100);
 	explorer = new Explorer();
-		
 	}
 	
 	@Test
@@ -34,7 +33,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExplorerDirectionAtStart() {
-		assertEquals('N',explorer.getDirection());
+		assertEquals("N",explorer.getDirection());
 	}
 	
 	

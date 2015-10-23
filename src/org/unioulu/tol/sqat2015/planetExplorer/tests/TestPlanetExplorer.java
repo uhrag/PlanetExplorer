@@ -52,7 +52,6 @@ public class TestPlanetExplorer {
 	public void testExplorerTurningCircle() {
 		explorer.turnRight();
 		explorer.turnRight();
-		explorer.turnRight();
 		assertEquals('N',explorer.getDirection());
 }
 

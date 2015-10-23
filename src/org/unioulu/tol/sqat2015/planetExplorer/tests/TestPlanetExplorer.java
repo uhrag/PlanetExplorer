@@ -61,7 +61,9 @@ public class TestPlanetExplorer {
 		assertEquals('N',explorer.getDirection());
 }
 
-
+	public void testHasObstacle(){
+		planet
+	}
 	
 /*	@Test
 	

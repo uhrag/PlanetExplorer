@@ -283,3 +283,21 @@ EditAction 1445595515186 Explorer.java 951 7 11 0
 UnitTestCaseAction 1445595515530 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445595515530 TestPlanetExplorer FAIL
 EditAction 1445595601604 PlanetExplorer.java 1800 3 4 0
+UnitTestCaseAction 1445595601901 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595601901 TestPlanetExplorer OK
+RefactoringAction 1445595680556 Planet.java ADD string obstacle FIELD
+RefactoringAction 1445595687066 Planet.java RENAME obstacle=>string obstacle() METHOD
+RefactoringAction 1445595692078 Planet.java RENAME obstacle()=>string obstacle(int, int) METHOD
+RefactoringAction 1445595714640 Planet.java ADD obstacle FIELD
+RefactoringAction 1445595718151 Planet.java REMOVE obstac FIELD
+RefactoringAction 1445595727183 Planet.java ADD boolean FIELD
+RefactoringAction 1445595804362 Planet.java REMOVE obstacle FIELD
+RefactoringAction 1445595806872 Planet.java ADD String obstacle FIELD
+RefactoringAction 1445595828912 Planet.java RENAME obstacle(int, int)=>String obstacle(integer, int) METHOD
+RefactoringAction 1445595832423 Planet.java RENAME obstacle(integer, int)=>String obstacle(int, int) METHOD
+RefactoringAction 1445595835434 Planet.java RENAME obstacle(int, int)=>String obstacle() METHOD
+RefactoringAction 1445595843945 Planet.java RENAME obstacle()=>String obstacle(int, int) METHOD
+RefactoringAction 1445595971459 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445595974977 TestPlanetExplorer.java RENAME test=>void testHasObstacle FIELD
+RefactoringAction 1445595976995 TestPlanetExplorer.java RENAME testHasObstacle=>void testHasObstacle() METHOD
+EditAction 1445595994120 TestPlanetExplorer.java 1677 8 14 8

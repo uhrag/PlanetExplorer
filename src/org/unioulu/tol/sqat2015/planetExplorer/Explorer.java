@@ -26,7 +26,6 @@ public class Explorer {
 	}
 	
 	public char getDirection(){
-		
 		return direction;
 	}
 	
@@ -52,5 +51,7 @@ public class Explorer {
 		else if (direction == 'W')
 			direction = 'N';
 	}
+	
+	
 	
 }

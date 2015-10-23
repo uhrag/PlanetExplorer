@@ -15,6 +15,8 @@ public class Explorer {
 		posX = 0;
 		posY = 0;
 		direction = "North";
+		
+		System.out.println(direction.charAt(0));
 	}
 	
 	public int getPosX(){
@@ -27,7 +29,7 @@ public class Explorer {
 	
 	public char getDirection(){
 		
-		System.out.println(direction.charAt(0));
+		
 		
 		return direction.charAt(0);
 	}

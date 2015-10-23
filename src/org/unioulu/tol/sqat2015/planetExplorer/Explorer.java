@@ -34,9 +34,25 @@ public class Explorer {
 	
 	public void turnLeft() {
 		//if N->W->S->E-N
+	if (direction == "North")
+		direction = "West";
+	else if (direction == "West")
+		direction = "South";
+	else if (direction == "South")
+		direction = "East";
+	else if (direction == "East")
+		direction = "North";
 	}
 	
 	public void turnRight() {
-		//if N->E->S->W
+		if (direction == "North")
+			direction = "East";
+		else if (direction == "East")
+			direction = "South";
+		else if (direction == "South")
+			direction = "West";
+		else if (direction == "West")
+			direction = "North";
 	}
+	
 }

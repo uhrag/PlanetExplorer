@@ -30,7 +30,7 @@ public class TestPlanetExplorer {
 	public void testExplorerHasLandedAtStart() {
 		assertEquals(0,explorer.getPosY());
 		assertEquals(0,explorer.getPosX());
-		assertEquals(N,explorer.getDirection());
+		assertEquals("N",explorer.getDirection());
 	}
 	
 	

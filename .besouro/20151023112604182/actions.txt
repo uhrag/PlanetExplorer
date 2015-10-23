@@ -223,3 +223,8 @@ RefactoringAction 1445593938334 TestPlanetExplorer.java RENAME testExplorer=>voi
 RefactoringAction 1445593940349 TestPlanetExplorer.java RENAME testExplorerTurningLeft=>void testExplorerTurningLeft() METHOD
 RefactoringAction 1445593947865 TestPlanetExplorer.java REMOVE testExplorerTurningLeft() METHOD
 EditAction 1445593970215 TestPlanetExplorer.java 973 4 7 5
+UnitTestCaseAction 1445593970542 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445593970542 TestPlanetExplorer FAIL
+RefactoringAction 1445594073644 TestPlanetExplorer.java ADD Object getDirection() METHOD
+RefactoringAction 1445594077018 TestPlanetExplorer.java REMOVE getDirection() METHOD
+EditAction 1445594114036 TestPlanetExplorer.java 973 4 7 5

@@ -53,11 +53,11 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void testExplorerTurningCircle() {
-		planetexplorer.executeCommand("l");
-		//explorer.turnRight();
-		//explorer.turnRight();
-		//explorer.turnRight();
-		//explorer.turnRight();
+		//planetexplorer.executeCommand("rrr");
+		explorer.turnRight();
+		explorer.turnRight();
+		explorer.turnRight();
+		explorer.turnRight();
 		assertEquals('N',explorer.getDirection());
 }
 

@@ -212,3 +212,14 @@ EditAction 1445593817636 Explorer.java 949 7 11 0
 UnitTestCaseAction 1445593817945 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445593817945 TestPlanetExplorer OK
 EditAction 1445593827750 Explorer.java 949 7 11 0
+UnitTestCaseAction 1445593828058 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445593828058 TestPlanetExplorer FAIL
+RefactoringAction 1445593853840 Explorer.java RENAME direction=>char directio FIELD
+RefactoringAction 1445593854853 Explorer.java RENAME directio=>char direction FIELD
+UnitTestCaseAction 1445593857720 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445593857720 TestPlanetExplorer FAIL
+RefactoringAction 1445593932820 TestPlanetExplorer.java ADD void testExplorer FIELD
+RefactoringAction 1445593938334 TestPlanetExplorer.java RENAME testExplorer=>void testExplorerTurningLeft FIELD
+RefactoringAction 1445593940349 TestPlanetExplorer.java RENAME testExplorerTurningLeft=>void testExplorerTurningLeft() METHOD
+RefactoringAction 1445593947865 TestPlanetExplorer.java REMOVE testExplorerTurningLeft() METHOD
+EditAction 1445593970215 TestPlanetExplorer.java 973 4 7 5

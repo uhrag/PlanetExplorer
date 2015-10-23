@@ -36,7 +36,19 @@ public class TestPlanetExplorer {
 		assertEquals('N',explorer.getDirection());
 	}
 	
+/*	@Test
 	
+	public void testExplorerTurningLeft() {
+		
+	}
+	*/
+	
+/*	@Test
+	
+	public void testExplorerTurningRight() {
+		
+	}
+	*/
 	
 	
 }

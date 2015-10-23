@@ -188,3 +188,4 @@ RefactoringAction 1445592956382 Explorer.java RENAME moveLeft()=>void turnLeft()
 RefactoringAction 1445592965903 Explorer.java ADD void turnRight FIELD
 RefactoringAction 1445592967916 Explorer.java RENAME turnRight=>void turnRight() METHOD
 EditAction 1445593215025 TestPlanetExplorer.java 830 4 7 5
+EditAction 1445593215155 Explorer.java 644 7 9 0

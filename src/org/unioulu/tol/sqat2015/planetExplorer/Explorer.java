@@ -23,7 +23,7 @@ public class Explorer {
 		return posY;
 	}
 	
-	public String getDirection(){
-		return direction.charAt(index);
+	public char getDirection(){
+		return direction.charAt(0);
 	}
 }

@@ -139,3 +139,20 @@ UnitTestSessionAction 1445592414425 TestPlanetExplorer FAIL
 RefactoringAction 1445592447756 Explorer.java ADD void Explorer(int, int, String)/2 METHOD
 RefactoringAction 1445592451292 Explorer.java REMOVE Explorer(int, int, String)/2 METHOD
 EditAction 1445592546160 TestPlanetExplorer.java 729 3 6 4
+CompilationAction 1445592546260 TestPlanetExplorer.java
+UnitTestCaseAction 1445592547428 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592547429 TestPlanetExplorer FAIL
+CompilationAction 1445592576629 TestPlanetExplorer.java
+CompilationAction 1445592576648 TestPlanetExplorer.java
+UnitTestCaseAction 1445592577900 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592577901 TestPlanetExplorer FAIL
+CompilationAction 1445592583000 TestPlanetExplorer.java
+CompilationAction 1445592583017 TestPlanetExplorer.java
+UnitTestCaseAction 1445592583968 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592583969 TestPlanetExplorer FAIL
+RefactoringAction 1445592596580 TestPlanetExplorer.java ADD String N FIELD
+RefactoringAction 1445592606552 TestPlanetExplorer.java REMOVE N FIELD
+CompilationAction 1445592637654 TestPlanetExplorer.java
+UnitTestCaseAction 1445592637875 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445592637875 TestPlanetExplorer OK
+EditAction 1445592647872 TestPlanetExplorer.java 726 3 6 4

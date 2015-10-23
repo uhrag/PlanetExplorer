@@ -16,7 +16,7 @@ public class TestPlanetExplorer {
 	@Before
 	public void setup(){
 	planet = new Planet(100,100);
-	explorer = new Explorer(0,0);
+	explorer = new Explorer();
 		
 	}
 	
@@ -28,8 +28,8 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExplorerHasLandedAtStart() {
-		assertEquals(0,explorer.getPosY());
-		assertEquals(0,explorer.getPosX());
+		assertEquals(1,explorer.getPosY());
+		assertEquals(1,explorer.getPosX());
 	}
 	
 	

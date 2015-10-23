@@ -247,3 +247,8 @@ CompilationAction 1445594578763 PlanetExplorer.java
 UnitTestCaseAction 1445594579980 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445594579980 TestPlanetExplorer FAIL
 EditAction 1445594606096 TestPlanetExplorer.java 1033 5 9 6
+UnitTestCaseAction 1445594607365 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445594607365 TestPlanetExplorer OK
+RefactoringAction 1445594619095 TestPlanetExplorer.java ADD void testExplorerTurningLeft()/2 METHOD
+RefactoringAction 1445594624111 TestPlanetExplorer.java RENAME testExplorerTurningLeft()/2=>void testExplorerTurningRight() METHOD
+EditAction 1445594640835 TestPlanetExplorer.java 1158 6 11 7

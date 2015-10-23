@@ -43,6 +43,13 @@ public class TestPlanetExplorer {
 		assertEquals('W',explorer.getDirection());
 	}
 
+@Test
+
+public void testExplorerTurningRight() {
+	explorer.turnRight();
+	assertEquals('E',explorer.getDirection());
+}
+
 	
 /*	@Test
 	

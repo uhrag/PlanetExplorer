@@ -402,3 +402,10 @@
 1445593818316 test-first 1 1152 true
 1445593818317 test-first 1 1152 true
 1445593818318 test-first 1 1152 true
+1445594607365 test-addition 2 779 true
+1445594607366 test-addition 2 779 true
+1445594607367 test-addition 1 779 true
+1445594607368 test-addition 2 779 true
+1445594607369 test-addition 1 779 true
+1445594607370 test-addition 2 779 true
+1445594607371 test-addition 1 779 true

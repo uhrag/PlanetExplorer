@@ -50,6 +50,14 @@ public void testExplorerTurningRight() {
 	assertEquals('E',explorer.getDirection());
 }
 
+public void testExplorerTurningCircle() {
+	explorer.turnRight();
+	explorer.turnRight();
+	explorer.turnRight();
+	assertEquals('N',explorer.getDirection());
+}
+
+
 	
 /*	@Test
 	

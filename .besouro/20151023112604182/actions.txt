@@ -252,3 +252,8 @@ UnitTestSessionAction 1445594607365 TestPlanetExplorer OK
 RefactoringAction 1445594619095 TestPlanetExplorer.java ADD void testExplorerTurningLeft()/2 METHOD
 RefactoringAction 1445594624111 TestPlanetExplorer.java RENAME testExplorerTurningLeft()/2=>void testExplorerTurningRight() METHOD
 EditAction 1445594640835 TestPlanetExplorer.java 1158 6 11 7
+UnitTestCaseAction 1445594642021 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445594642022 TestPlanetExplorer OK
+RefactoringAction 1445594651680 TestPlanetExplorer.java ADD void testExplorerTurningRight()/2 METHOD
+RefactoringAction 1445594659697 TestPlanetExplorer.java RENAME testExplorerTurningRight()/2=>void testExplorerTurningCircle() METHOD
+EditAction 1445594670756 TestPlanetExplorer.java 1325 7 15 8

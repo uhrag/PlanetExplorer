@@ -24,6 +24,6 @@ public class Explorer {
 	}
 	
 	public String getDirection(){
-		return direction;
+		return direction.charAt(index);
 	}
 }

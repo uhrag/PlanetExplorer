@@ -101,3 +101,7 @@ RefactoringAction 1445591796654 TestPlanetExplorer.java RENAME testExplorerhasLa
 RefactoringAction 1445591799170 TestPlanetExplorer.java RENAME testExplorerhasLanded()=>void testExplorerHasLanded() METHOD
 RefactoringAction 1445591804685 TestPlanetExplorer.java RENAME testExplorerHasLanded()=>void testExplorerHasLandedAtStart() METHOD
 EditAction 1445591856030 TestPlanetExplorer.java 768 3 7 5
+CompilationAction 1445591856434 TestPlanetExplorer.java
+CompilationAction 1445591856434 TestPlanetExplorer.java
+CompilationAction 1445591856434 TestPlanetExplorer.java
+EditAction 1445591856442 Explorer.java 435 5 5 0

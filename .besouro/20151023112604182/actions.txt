@@ -62,3 +62,7 @@ RefactoringAction 1445591070883 Planet.java ADD boolean size/2 FIELD
 RefactoringAction 1445591074395 Planet.java RENAME size/2=>boolean size() METHOD
 RefactoringAction 1445591119991 Planet.java RENAME size()=>boolean size(int, int) METHOD
 EditAction 1445591337247 TestPlanetExplorer.java 551 2 3 2
+CompilationAction 1445591337441 TestPlanetExplorer.java
+CompilationAction 1445591337441 TestPlanetExplorer.java
+CompilationAction 1445591337441 TestPlanetExplorer.java
+EditAction 1445591337450 Planet.java 418 4 6 0

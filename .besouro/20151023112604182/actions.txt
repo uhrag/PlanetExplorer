@@ -310,3 +310,6 @@ RefactoringAction 1445596074457 TestPlanetExplorer.java REMOVE testHasObstacle()
 UnitTestCaseAction 1445596081599 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445596081599 TestPlanetExplorer OK
 EditAction 1445596098061 TestPlanetExplorer.java 1737 7 14 8
+UnitTestCaseAction 1445596098374 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445596098374 TestPlanetExplorer OK
+EditAction 1445596106155 TestPlanetExplorer.java 1738 7 14 8

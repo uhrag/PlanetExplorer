@@ -72,3 +72,32 @@ EditAction 1445591360890 TestPlanetExplorer.java 549 2 3 2
 UnitTestCaseAction 1445591361213 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445591361214 TestPlanetExplorer FAIL
 EditAction 1445591367593 TestPlanetExplorer.java 551 2 3 2
+UnitTestCaseAction 1445591367978 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445591367978 TestPlanetExplorer OK
+RefactoringAction 1445591404132 TestPlanetExplorer.java ADD void testPlanetSize()/2 METHOD
+RefactoringAction 1445591409647 TestPlanetExplorer.java RENAME testPlanetSize()/2=>void testExplorer() METHOD
+RefactoringAction 1445591414162 TestPlanetExplorer.java RENAME testExplorer()=>void testExplorerPosition() METHOD
+RefactoringAction 1445591432690 TestPlanetExplorer.java RENAME testExplorerPosition()=>void testExplorerLanding() METHOD
+RefactoringAction 1445591459614 Explorer.java ADD int posX FIELD
+RefactoringAction 1445591459615 Explorer.java ADD int posY FIELD
+RefactoringAction 1445591507124 Explorer.java ADD int direction FIELD
+RefactoringAction 1445591532380 Explorer.java RENAME <initializer /1>=>static Explorer() METHOD
+RefactoringAction 1445591536889 Explorer.java RENAME Explorer()=>static Explorer(int) METHOD
+RefactoringAction 1445591538397 Explorer.java RENAME Explorer(int)=>static Explorer(int, int) METHOD
+RefactoringAction 1445591543410 Explorer.java RENAME Explorer(int, int)=>static Explorer(int, int, char) METHOD
+RefactoringAction 1445591645941 Explorer.java ADD void Landing FIELD
+RefactoringAction 1445591646952 Explorer.java RENAME Landing=>void Landing() METHOD
+RefactoringAction 1445591667003 Explorer.java RENAME Explorer(int, int, char)=>void Explorer(int, int, String) METHOD
+RefactoringAction 1445591704077 Explorer.java ADD int get FIELD
+RefactoringAction 1445591705088 Explorer.java RENAME get=>int getX FIELD
+RefactoringAction 1445591708100 Explorer.java RENAME getX=>int getPosX FIELD
+RefactoringAction 1445591718110 Explorer.java RENAME getPosX=>int getPosX() METHOD
+RefactoringAction 1445591727644 Explorer.java ADD int getPosY() METHOD
+RefactoringAction 1445591741678 Explorer.java ADD String get FIELD
+RefactoringAction 1445591746691 Explorer.java RENAME get=>String getDirection FIELD
+RefactoringAction 1445591747704 Explorer.java RENAME getDirection=>String getDirection() METHOD
+RefactoringAction 1445591792638 TestPlanetExplorer.java RENAME testExplorerLanding()=>void testExplorerhasLanding() METHOD
+RefactoringAction 1445591796654 TestPlanetExplorer.java RENAME testExplorerhasLanding()=>void testExplorerhasLanded() METHOD
+RefactoringAction 1445591799170 TestPlanetExplorer.java RENAME testExplorerhasLanded()=>void testExplorerHasLanded() METHOD
+RefactoringAction 1445591804685 TestPlanetExplorer.java RENAME testExplorerHasLanded()=>void testExplorerHasLandedAtStart() METHOD
+EditAction 1445591856030 TestPlanetExplorer.java 768 3 7 5

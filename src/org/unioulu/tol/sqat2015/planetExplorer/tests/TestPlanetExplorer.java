@@ -57,7 +57,7 @@ public class TestPlanetExplorer {
 		explorer.turnRight();
 		explorer.turnRight();
 		explorer.turnRight();
-		explorer.turnRight();
+		//explorer.turnRight();
 		assertEquals('N',explorer.getDirection());
 }
 

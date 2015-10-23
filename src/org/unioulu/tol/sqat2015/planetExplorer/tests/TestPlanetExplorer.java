@@ -36,25 +36,24 @@ public class TestPlanetExplorer {
 		assertEquals('N',explorer.getDirection());
 	}
 	
-@Test
-	
+	@Test
 	public void testExplorerTurningLeft() {
 		explorer.turnLeft();
 		assertEquals('W',explorer.getDirection());
 	}
 
-@Test
-
-public void testExplorerTurningRight() {
-	explorer.turnRight();
-	assertEquals('E',explorer.getDirection());
+	@Test
+	public void testExplorerTurningRight() {
+		explorer.turnRight();
+		assertEquals('E',explorer.getDirection());
 }
 
-public void testExplorerTurningCircle() {
-	explorer.turnRight();
-	explorer.turnRight();
-	explorer.turnRight();
-	assertEquals('N',explorer.getDirection());
+	@Test
+	public void testExplorerTurningCircle() {
+		explorer.turnRight();
+		explorer.turnRight();
+		explorer.turnRight();
+		assertEquals('N',explorer.getDirection());
 }
 
 

@@ -66,3 +66,6 @@ CompilationAction 1445591337441 TestPlanetExplorer.java
 CompilationAction 1445591337441 TestPlanetExplorer.java
 CompilationAction 1445591337441 TestPlanetExplorer.java
 EditAction 1445591337450 Planet.java 418 4 6 0
+UnitTestCaseAction 1445591338284 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445591338286 TestPlanetExplorer OK
+EditAction 1445591360890 TestPlanetExplorer.java 549 2 3 2

@@ -15,7 +15,7 @@ public class TestPlanetExplorer {
 	
 	@Before
 	public void setup(){
-	planet = new Planet(100,100);
+	planet = new Planet(10,10);
 		
 	}
 	

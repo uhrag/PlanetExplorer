@@ -5,7 +5,7 @@ public class Explorer {
 	private int posY;
 	private String direction = "";
 	
-	public void Explorer(int x, int y, String direction) {
+	public void Explorer() {
 		posX = 0;
 		posY = 0;
 		direction = "North";

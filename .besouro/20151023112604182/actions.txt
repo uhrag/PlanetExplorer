@@ -156,3 +156,6 @@ CompilationAction 1445592637654 TestPlanetExplorer.java
 UnitTestCaseAction 1445592637875 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445592637875 TestPlanetExplorer OK
 EditAction 1445592647872 TestPlanetExplorer.java 726 3 6 4
+UnitTestCaseAction 1445592648197 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592648197 TestPlanetExplorer FAIL
+EditAction 1445592654540 TestPlanetExplorer.java 726 3 6 4

@@ -28,8 +28,8 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExplorerHasLandedAtStart() {
-		assertEquals(1,explorer.getPosY());
-		assertEquals(1,explorer.getPosX());
+		assertEquals(0,explorer.getPosY());
+		assertEquals(0,explorer.getPosX());
 	}
 	
 	
